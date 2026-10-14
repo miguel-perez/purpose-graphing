@@ -1,0 +1,143 @@
+{
+  "name": "picking out rows",
+  "questionSetHash": "0ac12063dd371b9870c4f9f90f6feefb930e10ee663a9b5c5c12317d1d88807c",
+  "scoredWith": "Jev (typesafe/jev-1.13) through OpenRouter, temperature 0",
+  "reads": "one passage picked out of an account",
+  "scoredQuestions": [
+    "in-mind-at-the-time"
+  ],
+  "recordedOnly": [
+    "type",
+    "layer",
+    "mode"
+  ],
+  "scope": "Only the direct interior or not question was qualified; type, layer and mode are recorded and enter no score.",
+  "questions": [
+    {
+      "key": "in-mind-at-the-time",
+      "instructions": "Read only the passage. Decide whether it conveys the speaker's mental experience in the recounted situation: cognition, a felt reaction, or a personally developed guide governing their choice. Require expressed mental content, not a particular grammatical formula. A short fragment, an omitted subject, present-tense reenactment, or a reference to a particular person's conduct can convey an episode-bound experience without restating its date or setting. Do not treat missing temporal detail as evidence of habitual experience. A directly expressed reaction to a concrete incident normally qualifies unless the passage marks it as recurring, hypothetical, or a present reassessment. Likewise, a contrast between what the speaker voluntarily adopted and what others required can express their own decision without using a thinking verb. Mere action, however, does not establish a decision or emotion. For personal rules, distinguish the rule's general wording from its operative use: an explanation of the speaker's own decision criterion can reveal the guide governing the recounted activity even when expressed through conditional cases rather than a separately narrated instant. Do not demand a second account of its application when the passage already explains how the speaker makes the relevant choice. A free-standing maxim, external requirement, general preference, recurring experience, or newly invented hypothetical is insufficient. A future possibility considered during a remembered event is a real past thought; a speculation made while talking now is not. Background clauses do not cancel a qualifying mental report. Prefer a supported positive or negative conclusion over exact indecision. Consistency check: if thought-at-the-time, feeling-at-the-time, or personal-rule is the best-supported class, the mental-status judgment should ordinarily be positive under these same definitions. For all twelve class questions, assess the passage's best overall classification, not whether some words could fit each category independently. Compare the central communicative function with alternatives and give one best-supported class a distinctly highest expected level; incidental support should score lower. For genuine conversational housekeeping or material outside the taxonomy, give all classes their negative levels.",
+      "levels": [
+        "The passage does not convey the speaker's mental experience in a particular recounted situation, including any personal guide operative there.",
+        "It is genuinely uncertain whether the passage conveys the speaker's mental experience in a particular recounted situation or a personal guide operative there.",
+        "The passage conveys the speaker's mental experience in a particular recounted situation, either as cognition, a felt reaction, or an operative personal guide."
+      ]
+    },
+    {
+      "key": "how-or-why",
+      "instructions": "Classify the passage by its main function relative to the other classes. This circumstances class explains a mechanism, method, purpose, cause, or practical rationale. A concrete sequence of remedial or task-performing steps can show how something was done without an explicit causal connective or general explanation. Distinguish an operational account of handling a problem from a social or chronological account of what happened: the former favors how-or-why, the latter scene. Do not infer remembered reasoning merely because actions have an intelligible purpose. Conversely, if the speaker reports their own consideration or decision, prefer thought-at-the-time. If the explanation articulates a personally adopted criterion governing choices, prefer personal-rule rather than letting supporting technical facts dominate. Reasons supporting a recommendation are secondary when the main function is approval-or-disapproval. Explanations about giving the interview itself can be outside these content classes.",
+      "levels": [
+        "The passage is not best classified as explaining a mechanism, method, purpose, cause, or practical rationale.",
+        "The passage has some support for classification as explaining a mechanism, method, purpose, cause, or practical rationale, but this is uncertain or secondary to another function.",
+        "The passage is best classified as explaining a mechanism, method, purpose, cause, or practical rationale, including a concrete account of how a task or problem was handled."
+      ]
+    },
+    {
+      "key": "scene",
+      "instructions": "This circumstances class supplies the setting, participants, antecedents, or outward happenings of an episode. A report of activities can be scene without revealing mental content. Locations and times belong here when they situate the event; detached quantities or attributes favor plain-fact. A sequence whose main point is a practical method for treating, repairing, preparing, or otherwise handling something favors how-or-why, even if told in past tense. Do not infer emotions or decisions from ordinary actions. However, do not reduce a semantically expressed choice to scenery: a contrast between self-initiated conduct and outside instructions can communicate the speaker's independent decision. An explicit reaction or thought generally outweighs incidental setting when selecting the central class.",
+      "levels": [
+        "The passage is not best classified as an account of an episode's setting, participants, antecedents, or outward happenings.",
+        "The passage has some support for classification as an account of an episode's setting or outward happenings, but this is uncertain or secondary to another function.",
+        "The passage is best classified as an account of an episode's setting, participants, antecedents, or outward happenings."
+      ]
+    },
+    {
+      "key": "plain-fact",
+      "instructions": "This circumstances class states straightforward information such as a quantity, duration, price, identity, physical property, or spatial relationship. Select it when supplying the information is the main point. A brief count of how many attempts an activity required can remain plain-fact even though it concerns an episode. Prefer scene when details chiefly situate or advance a narrative, and how-or-why when they chiefly explain a method or cause. First-person factual statements need not reveal mental experience. Do not classify every declarative sentence as factual: attitudes, preferences, recurring reactions, and mental reports have more specific functions. A reported act of noticing a property can be thought-at-the-time; a bare statement of that property is not automatically noticing. Technical properties supporting a personal decision rule are usually subordinate to the rule.",
+      "levels": [
+        "The passage is not best classified as a straightforward statement of a quantity, attribute, identity, duration, or location.",
+        "The passage has some support for classification as a straightforward factual statement, but this is uncertain or secondary to another function.",
+        "The passage is best classified as a straightforward statement of a quantity, attribute, identity, duration, or location."
+      ]
+    },
+    {
+      "key": "approval-or-disapproval",
+      "instructions": "This relationship-to-topic class primarily endorses, criticizes, praises, condemns, or advocates a change. Look for judgments of merit, acceptability, correctness, fairness, or desirable arrangements. Personal enjoyment or aversion favors like-or-dislike; a broad settled orientation favors standing-attitude. Do not give this class a high score merely because a narrator describes a risk, an unwanted outcome, or an emotionally objectionable act. An expressed episode-bound emotion takes priority when the main point is the speaker's reaction, even if its cause is criticized. Practical judgments embedded in a self-guiding decision policy usually support personal-rule, not a competing top-level evaluation. A current appraisal of a past event is not by itself a remembered mental experience. A moral or cultural standard does not automatically become a personally developed rule.",
+      "levels": [
+        "The passage is not best classified as endorsement, criticism, or advocacy of how something should be.",
+        "The passage has some support for classification as endorsement, criticism, or advocacy of change, but this is uncertain or secondary to another function.",
+        "The passage is best classified as endorsement, criticism, or advocacy of how something should be."
+      ]
+    },
+    {
+      "key": "like-or-dislike",
+      "instructions": "This relationship-to-topic class primarily expresses taste, attraction, enjoyment, preference, aversion, or lack of liking. Strong positive or negative language alone does not locate an experience in a past episode. An unanchored declaration of affection or dislike normally belongs here, not feeling-at-the-time. In contrast, a directly expressed emotional reaction to a particular incident favors feeling-at-the-time even in a terse present-tense fragment. Prefer approval-or-disapproval when the speaker evaluates merit or advocates change rather than expressing taste. Prefer standing-attitude when the passage chiefly characterizes a settled approach, reliance, or relationship to the topic. An action or choice alone does not establish liking. A favorable adjective incidental to a narrative does not make preference its principal class.",
+      "levels": [
+        "The passage is not best classified as an expression of personal liking, dislike, enjoyment, aversion, or preference.",
+        "The passage has some support for classification as personal liking, dislike, enjoyment, aversion, or preference, but this is uncertain or secondary to another function.",
+        "The passage is best classified as an expression of personal liking, dislike, enjoyment, aversion, or preference."
+      ]
+    },
+    {
+      "key": "standing-attitude",
+      "instructions": "This relationship-to-topic class characterizes an enduring outlook, disposition, settled belief, or established way of relating to a topic. It includes habitual reliance, loyalty, avoidance, and adopted ways of working; an explicit opinion or emotion is unnecessary. Broadly describing a tool as one's default across many activities is a settled relationship to that tool, not merely a repeated-event pattern. Use usual-pattern instead when the point is what unfolds on successive occasions, especially recurrent thoughts, feelings, or trigger-response sequences. General taste favors like-or-dislike, and a particular appraisal favors approval-or-disapproval. Distinguish an orientation from a decision rule: an actionable criterion explaining how the speaker selects between options favors personal-rule when presented as governing the activity being recounted. A free-standing maxim without such operative relevance can remain standing-attitude.",
+      "levels": [
+        "The passage is not best classified as the speaker's enduring outlook or established relationship to a topic.",
+        "The passage has some support for classification as an enduring outlook or established relationship to a topic, but this is uncertain or secondary to another function.",
+        "The passage is best classified as the speaker's enduring outlook or established relationship to a topic, including habitual reliance or an adopted approach."
+      ]
+    },
+    {
+      "key": "usual-pattern",
+      "instructions": "This near-mental class primarily summarizes recurring events, actions, thoughts, or feelings across occasions instead of one situated experience. Past habits and ongoing recurrent feelings can qualify. Explicit persistence or recurrence matters: repeated unease across encounters is not a single episode's feeling simply because emotions are named. Do not infer recurrence solely from present tense, an incomplete fragment, or missing temporal details. Distinguish recurring episodes from a settled relationship: a broad statement of habitual commitment, reliance, or orientation favors standing-attitude. Also distinguish a pattern from an operative decision rule: merely describing what tends to happen favors usual-pattern, while expressing the personally adopted criterion for choosing an action favors personal-rule. Conditional language can state an actual routine rather than an imagined situation. If the passage also reports a concrete remembered mental experience, keep the mental-status judgment positive and consider that specific experience as the leading class.",
+      "levels": [
+        "The passage is not best classified as a recurring pattern of events, actions, thoughts, or feelings across occasions.",
+        "The passage has some support for classification as a recurring pattern across occasions, but this is uncertain or secondary to another function.",
+        "The passage is best classified as a recurring pattern of events, actions, thoughts, or feelings across occasions rather than one situated experience."
+      ]
+    },
+    {
+      "key": "unsaid-thought",
+      "instructions": "This near-mental class centrally suggests a mental state, intention, or guide whose content the speaker leaves unexpressed. The reader would have to supply the thought, feeling, or rule rather than merely understand ordinary conversational phrasing. Do not use this class for every action with a conceivable motive; a straightforward report of outward events generally favors scene or how-or-why. Do not confuse absence of a thinking verb with absence of mental content. Concise internal speech, direct expressions of reaction, and contrasts communicating a voluntary decision can state mental content without naming the mental process. Equally, do not invent a motive, emotion, or guiding rule from behavior alone. Missing surrounding context and uncertainty about what a pronoun refers to are not themselves evidence of an unsaid thought.",
+      "levels": [
+        "The passage is not best classified as centrally suggesting a mental state or personal guide whose content remains unstated.",
+        "The passage has some support for classification as suggesting an unstated mental state or guide, but this is uncertain or secondary to another function.",
+        "The passage is best classified as centrally suggesting a thought, feeling, intention, or personal guide without expressing its mental content."
+      ]
+    },
+    {
+      "key": "imagined",
+      "instructions": "This near-mental class constructs a hypothetical, counterfactual, or future scenario and speculates about the speaker's response. Distinguish imagining now from remembering an act of imagining: a future possibility explicitly considered during a past decision belongs to thought-at-the-time. A definite past intention is not hypothetical merely because the intended event had not occurred. Conditional wording alone is insufficient. Conditions used to explain an actual personally adopted decision policy favor personal-rule; conditions describing recurring real experience favor usual-pattern. Illustrative possibilities embedded in a practical rule do not make the entire passage imagined. Uncertainty about a real memory's details is also not enough. Select imagined when projection into an unexperienced or speculative situation is the central function.",
+      "levels": [
+        "The passage is not best classified as speculation about the speaker's response in a hypothetical, counterfactual, or future situation.",
+        "The passage has some support for classification as speculation about a hypothetical, counterfactual, or future response, but this is uncertain or secondary to another function.",
+        "The passage is best classified as imagining what the speaker would think, feel, or do in a hypothetical, counterfactual, or future situation."
+      ]
+    },
+    {
+      "key": "thought-at-the-time",
+      "instructions": "This episode-specific mental class conveys cognition in the recounted situation: noticing, recognizing, interpreting, expecting, wondering, remembering, weighing, intending, or deciding. Mental content must be expressed, but a thinking verb, quotation, precise timestamp, and complete sentence are unnecessary. Past-tense narration and present-tense reenactment both qualify. A brief situated thought should not be rejected merely because its surrounding episode is omitted. Understand decisions semantically: contrasting one's self-initiated adoption of a practice with the absence of external direction can express independent choice in the relevant situation. This differs from merely listing actions, which does not establish a thought. Reported awareness is also different from a bare property of an object. A then-held expectation remains a past thought even when its subject is future or unreal. Prefer feeling-at-the-time for a central emotional reaction, and personal-rule for an established decision principle governing the choice. A general belief, current recommendation, or explanation supplied only from the telling position is not automatically a thought from the event.",
+      "levels": [
+        "The passage is not best classified as conveying what the speaker noticed, interpreted, considered, expected, intended, or decided in the recounted situation.",
+        "The passage has some support for classification as cognition in the recounted situation, but this is uncertain or secondary to another function.",
+        "The passage is best classified as conveying what the speaker noticed, interpreted, considered, expected, intended, or decided in the recounted situation."
+      ]
+    },
+    {
+      "key": "feeling-at-the-time",
+      "instructions": "This episode-specific mental class expresses the speaker's felt reaction in the recounted situation, such as anger, fear, relief, excitement, embarrassment, frustration, or unease. A terse emotion statement directed at a particular person's conduct can convey a situated reaction without an explicit past-tense frame. Do not downgrade it solely because the subject, setting, or temporal marker is omitted. Concrete reference and reactive meaning can provide sufficient local anchoring. In contrast, language spreading the feeling over repeated encounters or an ongoing series favors usual-pattern. General affection or aversion favors like-or-dislike; a present evaluation alone favors approval-or-disapproval. The speaker must express feeling, not merely describe an upsetting event or behavior from which emotion might be inferred. Embodied language can convey a felt reaction, but an isolated bodily measurement does not necessarily do so. A belief introduced using a feeling verb can be cognitive. When this class is the strongest reading, the in-mind-at-the-time judgment should also favor the positive level.",
+      "levels": [
+        "The passage is not best classified as expressing the speaker's felt reaction in the recounted situation.",
+        "The passage has some support for classification as a felt reaction in the recounted situation, but this is uncertain or secondary to another function.",
+        "The passage is best classified as expressing the speaker's felt reaction in the recounted situation, including a brief or present-tense rendering of that reaction."
+      ]
+    },
+    {
+      "key": "personal-rule",
+      "instructions": "This episode-specific mental class expresses a personally developed instruction, heuristic, precaution, or decision criterion governing the speaker's action in the activity being recounted. Look for an actionable relation between a condition or concern and the speaker's chosen response. The rule can be articulated generally while explaining its operative use; its wording need not be confined to a single instant. An account of the criteria by which the speaker delegates a risky task, selects a method, or avoids an unwanted consequence can reveal the governing rule even through illustrative conditional cases. Do not require a separate timestamp, a quoted command, a history of how the rule developed, or an additional sentence narrating its application when its governing role is already conveyed. Nevertheless, do not invent a rule from sensible behavior: the personal criterion and its role in the speaker's choices must be expressed. A detached maxim without operative relevance favors standing-attitude; recurring behavior without a guiding criterion favors usual-pattern; a one-time decision favors thought-at-the-time. An external regulation, technical fact, or inherited cultural or religious value alone is not a personal rule. Supporting mechanisms, risk assessments, and hypothetical examples should not outrank the rule when they explain the speaker's practical choice. A well-supported personal-rule classification also supports a positive mental-status judgment.",
+      "levels": [
+        "The passage is not best classified as a personally developed guide governing the speaker's choices in the activity being recounted.",
+        "The passage has some support for classification as a personally developed guide governing the recounted choices, but its operative role or its status as the central content is uncertain.",
+        "The passage is best classified as a personally developed guide governing the speaker's choices in the activity being recounted, including a generally worded explanation of that operative guide."
+      ]
+    },
+    {
+      "key": "about-the-telling",
+      "instructions": "Judge speaking position separately from class and mental status. The first pole presents the remembered episode from the position of living through it: unfolding events, contemporaneous thoughts, or reactions. Either past tense or reenacted present tense can do this. The last pole presents the speaker's current activity of recounting, explaining, assessing, or addressing the listener. It includes comments on memory or wording and present statements of general opinions, preferences, established approaches, or possible futures offered from outside the remembered episode; an explicit reference to the interview is unnecessary. A speaker can explain a genuinely operative past rule from this current telling position, so a positive mental classification does not force the first pole. Do not decide from tense alone. Use the middle for an actual mixture of positions or material with neither identifiable position, not simply because the passage lacks explicit time markers.",
+      "levels": [
+        "The passage speaks from within the remembered situation, presenting events or experience from the position of living through them.",
+        "The passage combines an inside-the-memory position with present commentary, or occupies neither identifiable speaking position.",
+        "The passage speaks from the present telling position, stepping outside the remembered situation to explain, assess, generalize, speculate, or address the exchange."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "purpose-graphing",
+  "description": "An agent skill using Indi Young's method, Data Science that Listens.",
+  "owner": { "name": "Miguel Perez" },
+  "plugins": [
+    {
+      "name": "purpose-graphing",
+      "source": "./",
+      "description": "Finds the patterns across people in their own accounts and keeps every pattern traced to their words, using Indi Young's method, Data Science that Listens.",
+      "version": "1.0.0"
+    }
+  ]
+}

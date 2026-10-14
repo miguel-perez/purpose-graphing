@@ -1,0 +1,120 @@
+{
+  "name": "summaries",
+  "questionSetHash": "e489f8caeb2d5df96ea0157d3aea7af15c6457f662b1c1a2d389af4366ceaf16",
+  "scoredWith": "Jev (typesafe/jev-1.13) through OpenRouter, temperature 0",
+  "reads": "a quote from an account and one summary of it",
+  "scoredQuestions": [
+    "central_inner_act",
+    "defining_content",
+    "reasoning_structure",
+    "grounded_meaning",
+    "stance_and_scope",
+    "single_state_integration",
+    "verb_led_expression",
+    "present_internal_voice",
+    "clarity_and_economy"
+  ],
+  "recordedOnly": [],
+  "scope": "The outputs the promoting search qualified; its measures are in provenance.json.",
+  "questions": [
+    {
+      "key": "central_inner_act",
+      "instructions": "Does the summary express a salient internal response or purposeful choice belonging to the quoted speaker? Identify its governing predicate and what that predicate concerns. A feeling, appraisal, intention, hesitation, personal rule, deliberate change of attitude, or goal-directed choice can qualify. An explicit thinking verb is not required: a purposeful action can enact a decision when its object or means makes the speaker's aim clear. For example, 'Reserve a seat by leaving my coat there' expresses an immediate practical choice, whereas 'Walk beside the building' alone merely reports movement. Do not invent an unstated aim for bare activity. Evaluate the selected moment rather than coverage of the quotation. Ignore grammatical person and tense here; those have separate criteria.",
+      "levels": [
+        "The summary conveys no identifiable internal response or purposeful choice of the quoted speaker, or its central response contradicts the quotation.",
+        "The summary predominantly reports events, activity, or speech without conveying the speaker's response or practical aim.",
+        "The summary conveys a supported attitude or practical aim, but the particular response or its target remains materially unclear.",
+        "The summary conveys a supported, salient response or purposeful choice with a small identifiable loss of precision.",
+        "The summary clearly conveys a supported, salient internal response or purposeful choice and what it concerns, whether expressed through a mental predicate or an action that makes the aim clear."
+      ]
+    },
+    {
+      "key": "defining_content",
+      "instructions": "Does the summary itself identify the selected response or choice with enough context to distinguish it from a generic attitude? Look for its target and any indispensable circumstance, constraint, contrast, or intended result. Judge the meaning actually conveyed; do not silently supply missing essentials from the quotation. Conversely, do not require every detail, a second mental state, or an ideal alternative. For a practical choice, the goal and relevant means may supply all necessary context. Names, measurements, background, and examples are optional unless removing them changes the internal account. Specificity is semantic, not a reward for additional words.",
+      "levels": [
+        "The summary omits the defining target or context, making the selected internal account unidentifiable.",
+        "The summary gives only a broad response or activity, with most distinguishing information absent.",
+        "The summary identifies the general account but omits an essential target, circumstance, constraint, or contrast.",
+        "The summary contains the defining information but leaves a small relevant distinction unclear.",
+        "The summary contains enough target and context to identify the selected account; omitted material would only provide optional enrichment."
+      ]
+    },
+    {
+      "key": "reasoning_structure",
+      "instructions": "Does the summary preserve how the selected response or choice relates to its reason, trigger, condition, obstacle, means, or goal? Assess the direction and function of these relationships, not the number of facts or causal connectives. A means-to-goal relation can fully express practical reasoning. Coordinated clauses may jointly convey one adjustment or choice; they need not explicitly label one another as reasons. Do not demand a separate motive when the object or circumstance already makes the response intelligible. Distinguish an intended effect from an achieved result. An accurate account that needs no additional explanation deserves the highest level.",
+      "levels": [
+        "The summary reverses or invents the central relationship between the response, its circumstances, and its purpose.",
+        "The summary loses or misconnects an essential reason, condition, means, or goal, materially changing the speaker's logic.",
+        "The summary preserves some practical logic but leaves an important relationship incomplete or ambiguous.",
+        "The summary preserves the essential practical logic with a small identifiable relational imprecision.",
+        "The summary faithfully conveys the relevant explanatory or means-to-goal relationships, or accurately states a response requiring no further explanation."
+      ]
+    },
+    {
+      "key": "grounded_meaning",
+      "instructions": "Check the substantive claims against the quotation: response, object, participants, roles, circumstances, motives, negation, and outcomes. Accept ordinary interpretation supported by the speaker's framing, including a natural emotional reading of an appraisal and the evident purpose of a deliberate action. Reject hidden motives, backstories, or results supported only by plausibility. A present-tense enactment of an effort or choice does not by itself claim that the effort succeeded; require actual success language before treating it as an invented accomplishment. A compact paraphrase need not preserve every explicit thinking or trying word. Missing information is not fabrication. Assess person and tense elsewhere unless they change the substantive attribution or temporal relationship.",
+      "levels": [
+        "The central account contradicts the quotation or depends on an invented response or circumstance.",
+        "The summary adds a major unsupported motive, fact, result, or participant role that changes the account.",
+        "The central account is supported, but a secondary substantive claim is unsupported or inaccurate.",
+        "The account is supported apart from a minor peripheral factual imprecision.",
+        "All substantive claims are supported by the quotation or by a natural interpretation of the speaker's framing, without invented motives or results."
+      ]
+    },
+    {
+      "key": "stance_and_scope",
+      "instructions": "Does the summary preserve the selected state's emotional character, certainty, commitment, frequency, and scope? Deduct only for an identifiable semantic shift, not a different word or a more direct grammatical construction. Neither stronger nor weaker wording is inherently preferable. A bare present verb can voice an ongoing effort, intention, or self-direction; it does not automatically assert completion, certainty, or a permanent trait. Nevertheless, explicit claims of guaranteed success, absolute commitment, or universal frequency need support. Interpret emotion words in context rather than at their most extreme dictionary sense. Do not demand earlier hesitation or other feelings unless their omission changes the selected stance.",
+      "levels": [
+        "The summary reverses or radically changes the emotional character, certainty, commitment, or scope of the selected state.",
+        "The summary substantially exaggerates, weakens, or generalizes the selected state beyond the quotation's support.",
+        "The summary preserves the broad stance but changes an important qualification, degree, or limit.",
+        "The summary preserves the stance and scope except for a slight identifiable shift in force.",
+        "The summary preserves the supported emotional character, certainty, commitment, and scope, with no meaningful shift."
+      ]
+    },
+    {
+      "key": "single_state_integration",
+      "instructions": "Is the content organized around one internal account at a selected moment? A response and its target, a choice and its means, an intention and its reason, or opposing feelings forming ambivalence can each constitute one account. Several verbs do not imply several states: changing an attitude and adopting its alternative may express one adjustment. Another person's reaction may be the speaker's concern rather than a separate account. Penalize independent episodes, disconnected observations, and event recaps that compete with the organizing response or aim. Judge functional unity, not clause count, length, factual accuracy, or coverage of the quotation.",
+      "levels": [
+        "The summary contains disconnected points with no coherent organizing response or aim.",
+        "The summary presents multiple independent accounts or an event sequence without a governing internal account.",
+        "The summary has a governing internal account but includes a separate assertion that does not serve it.",
+        "The summary maintains one internal account, with a minor ambiguity about how an added clause contributes.",
+        "The summary forms one coherent internal account; its clauses serve the response or aim through target, explanation, means, qualification, contrast, or consequence."
+      ]
+    },
+    {
+      "key": "verb_led_expression",
+      "instructions": "Judge only the opening construction. Apply this order: an external reporting frame, title, or noun label receives the lowest level even if it contains a mental verb later. Otherwise, an initial base-form predicate, optionally following 'I' or an inclusive 'we', qualifies when it expresses an internal response or purposeful choice. A deliberate practical action whose aim is clear qualifies without adding 'think', 'want', or 'decide'. Phrasal verbs and verbs whose base and past forms coincide are not defective openings. Subjectless base forms are the task's convention for self-voicing, not commands addressed to a reader. Emotional openings may use an emotion verb or 'feel' followed directly by an emotion. Do not let fluency or accurate content compensate for an external opening frame.",
+      "levels": [
+        "The summary begins with external reporting, a title, or a noun label instead of directly voicing the speaker's response or choice.",
+        "The summary places a substantial introductory construction before its internal-response or choice predicate.",
+        "The summary begins with a verb of bare activity without a clear internal response or purposeful aim.",
+        "The summary begins directly with a qualifying response or choice predicate but has a specific minor defect in the opening construction.",
+        "The summary begins directly with a qualifying internal-response or purposeful-choice predicate, either subjectless or immediately following a first-person subject."
+      ]
+    },
+    {
+      "key": "present_internal_voice",
+      "instructions": "Judge the summary's own viewpoint, not the tense of the quotation. External reporting about the speaker receives the lowest level even if a reporting verb is present tense. A subjectless base-form governing verb establishes the speaker's present viewpoint by task convention. For example, 'Put my doubts aside while I listen' and 'Choose a quieter route because the main road was blocked' both use present self-voicing. When a verb has identical base and past forms, read a subjectless opening as the base form unless the summary itself clearly establishes past narration. A past-tense subordinate clause does not turn the governing state into past narration. Earlier causes, remembered experience, and future effects may use their appropriate tenses. Explicit 'I' is unnecessary; inclusive 'we' is acceptable for a shared choice in which the speaker participates.",
+      "levels": [
+        "The summary uses an external narrator's viewpoint or voices the internal account as belonging to someone other than the quoted speaker.",
+        "The summary uses the speaker's viewpoint but presents the governing state as past narration or another clearly nonpresent standpoint.",
+        "The summary establishes present self-voicing but contains a substantial person or time shift that confuses the standpoint.",
+        "The summary maintains present self-voicing with a minor identifiable person or temporal mismatch.",
+        "The summary voices the speaker's present response or choice through a subjectless base form or explicit first-person construction, with other time references appropriately subordinated."
+      ]
+    },
+    {
+      "key": "clarity_and_economy",
+      "instructions": "Can the expressed account be understood directly, without genuinely avoidable verbal burden? Deduct for confusing attachment, tangled structure, empty scaffolding, or repetition that contributes no distinct meaning. Do not deduct merely because a shorter or more polished rewrite is possible. Repeating a referent, using a modest descriptive detail, coordinating clauses, or specifying the means of a choice can aid clarity and deserves no automatic penalty. A predicate and its explanatory clause may share related vocabulary while doing different jobs. Plain language, colloquial wording, and an omitted first-person subject can be fully clear. Assess wording only: do not duplicate penalties for missing content, inaccurate interpretation, or external viewpoint. Use the highest level unless a concrete wording defect can be identified.",
+      "levels": [
+        "The wording is so fragmented or tangled that the expressed account cannot be reliably understood.",
+        "Confusing connections, empty scaffolding, or substantial repetition seriously obstruct understanding.",
+        "The account is understandable, but identifiable structural friction or redundant restatement noticeably burdens reading.",
+        "The account is clear, with a small concrete amount of unnecessary verbal friction.",
+        "The account is readily understandable, and its wording serves the expressed meaning without identifiable needless burden."
+      ]
+    }
+  ]
+}
