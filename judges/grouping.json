@@ -9,7 +9,7 @@
     "interpretive_warrant"
   ],
   "recordedOnly": [],
-  "scope": "Ranks Young's grouping above deterministic damage on held-out people and Performance; shows an order preference; certifies no grouping alone. merge-loses-distinction: passes the floor, not shown above chance. Qualified on local supplied-text cases only; not whole-map, not fresh-human; details in qualification.json.",
+  "scope": "Checked on small, self-contained cases where a correct grouping sits beside damaged ones, not on whole maps and not by people. It catches wrongly merged groups only about half the time, which is not shown to be better than chance.",
   "questions": [
     {
       "key": "task_support",

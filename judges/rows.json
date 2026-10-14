@@ -11,7 +11,7 @@
     "layer",
     "mode"
   ],
-  "scope": "Only the direct interior or not question was qualified; type, layer and mode are recorded and enter no score.",
+  "scope": "Checked on Young's own highlighted rows. Only the first question, whether a passage is the person's own thinking at the time, passed its checks and counts toward the score; the other answers are recorded only.",
   "questions": [
     {
       "key": "in-mind-at-the-time",

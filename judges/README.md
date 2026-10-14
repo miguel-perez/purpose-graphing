@@ -2,7 +2,7 @@
 
 These are the three judges purpose-graphing was scored with. They are published so you can see exactly what "rated 14% higher" means, check the skill's work the same way, or use the judges in your own tests.
 
-The skill was built using Indi Young's method, Data Science that Listens, and the judges were trained on her work. Neither is certified or endorsed by her.
+The skill was built using Indi Young's method, Data Science that Listens, and the judges were trained on her work. The skill and its judges are not certified or endorsed by her.
 
 ## What a judge is
 
@@ -16,7 +16,7 @@ The questions are read by Jev, a small scoring model from TypeSafe (`typesafe/je
 
 So a score of 0.8 means that, across its questions, the judge placed the work about four fifths of the way up the ladders.
 
-None of the questions were written by hand. Each judge was found by its own automated search, which rewrote the questions over many rounds and kept the versions that agreed best with Young's own work on material the search had not seen. Each judge then passed its own checks before it scored the skill. The main README's Evidence section has the results of those checks.
+None of the questions were written by hand. Each judge was found by its own automated search, which rewrote the questions over many rounds and kept the versions that agreed best with Young's own work. The chosen version was then checked once on a separate set of material the search had never been chosen on. Each judge then passed its own checks before it scored the skill. The main README's Evidence section has the results of those checks.
 
 ## The three judges
 

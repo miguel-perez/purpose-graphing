@@ -37,7 +37,7 @@ npx skills add miguel-perez/purpose-graphing
 
 **By hand.** Copy `skills/purpose-graphing/` into your agent's skills folder, for example `~/.claude/skills/`.
 
-There is nothing else to install. The skill's two scripts are plain Python that use only the standard library. In Claude.ai and the desktop app they run in Claude's own code environment; turn on code execution in settings if it is off. In Claude Code, OpenCode and other agents on your computer they use your Python 3.9 or later, which most Mac and Linux machines already have. On Windows, install Python first.
+There is nothing else to install. The skill's two scripts are plain Python that use only the standard library. In Claude.ai and the desktop app they run in Claude's own code environment; turn on code execution in settings if it is off. We have checked the zip's layout but not yet run the skill in Claude.ai itself. In Claude Code, OpenCode and other agents on your computer they use your Python 3.9 or later, which most Mac and Linux machines already have. On Windows, install Python first.
 
 ## Using it
 
@@ -114,7 +114,6 @@ A report answers one question for one audience. The skill also keeps the analysi
 - **Find patterns across studies.** Give the agent the combined summaries from several studies and ask it to group them. It runs the same grouping across all of them, in three levels, so a purpose that keeps coming up in study after study shows itself, still traced to each person's words. This works best when the studies share a purpose. Patterns emerge across people pursuing the same purpose, and mixing unrelated purposes tends to produce groups by topic.
 
 We have tested whole studies from accounts to report. Retelling for different audiences, answering follow-up questions, combining studies and grouping across them are ways to use the same files and the skill's own steps, and have not been tested as steps of their own.
-
 
 ## Your part stays yours
 
@@ -249,7 +248,7 @@ As a final check, the released skill was run once in Claude Code (Claude Opus 5.
 
 - **Setup:** the skill set up its own study folder.
 - **Rows and summaries:** one helper per conversation loaded the skill itself and recorded that conversation's rows and summaries, 2,062 rows and 464 summaries in all.
-- **Groups:** 60 groups under 11 broader ones, with nothing left unplaced. The top level of 3 was added after the report.
+- **Groups:** 60 groups under 11 broader ones, with 24 summaries set aside as remarks about the recorded conversation itself and nothing left unplaced. The top level of 3 was added after the report.
 - **Report:** the skill delivered a report. The three concerns this page is built around, trustworthy findings, findings acted on, and keeping the work worth doing, are the three broad patterns it found.
 
 The reading was not scored, and the person running it had seen an earlier summary of the same research. It shows the skill working end to end on material from outside Young's studies; it does not measure quality.
@@ -263,7 +262,7 @@ After evaluation, the skill was renamed, given a setup step and lightly reworded
 
 - **Name and description.** The name changed from account-meaning-study to experience-graphing, and then to purpose-graphing, and the description was rewritten to say what the skill finds. The final reading and the loading checks ran under the name experience-graphing.
 - **Setup.** A setup step was added. It copies the scripts into a study folder, puts each account in its own file, marks speaker turns where they are missing, and starts the graph. In testing, the test harness did this.
-- **Wording.** Wording that assumed every account is a conversation now says account: "the whole account" instead of "the whole conversation", and "filler" instead of "conversational filler".
+- **Wording.** Wording that assumed every account is a conversation now says account: "the whole account" instead of "the whole conversation", and "filler" instead of "conversational filler". Two other lines were reworded without changing their sense: the instruction to summarize only the quotes supplied, and the instruction to inspect every summary, following pagination.
 - **Loading line.** A line about loading the skill afresh in each session became the rule that each helper loads it through its own skill tool.
 - **Report location.** The report goes under `reports/` unless the request names another place.
 - **Graph script.** It now carries its configuration inside it, sets up a study from a folder of accounts, and works without the test harness. Every message it prints is unchanged.
@@ -271,7 +270,7 @@ After evaluation, the skill was renamed, given a setup step and lightly reworded
 Two more changes came after the reading on real research, so that reading used neither:
 
 - **A CSV export.** `scripts/export_csv.py` writes the graph out as the three tables described above, each line naming its study. It reads the graph and changes nothing in it.
-- **Three levels of groups in every whole study.** The tested text let a whole study stop at fewer levels, and the reading stopped at two until its third level was added afterwards. The skill now requires all three. This changes the confirmed grouping instructions by two sentences, and the skill was not scored again after it.
+- **Three levels of groups in every whole study.** The tested text let a whole study stop at fewer levels, and the reading stopped at two until its third level was added afterwards. The skill now requires all three. This changes three sentences of the confirmed grouping instructions and adds one more, saying the rule takes precedence over the graph script's own help, which still says to build only useful levels because the script is kept exactly as tested. The skill was not scored again after this change.
 
 The released text was checked for copied passages: no run of eight or more words is shared with Young's quotes and summaries.
 

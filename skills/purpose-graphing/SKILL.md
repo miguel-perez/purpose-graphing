@@ -110,7 +110,7 @@ Finish an account's rows and summaries before proceeding where practical. Resolv
 
 Apply the grouping instructions to recorded summaries. Begin with close shared meanings. Compare each newly completed account with existing groups, revising memberships and labels as necessary. Do not postpone every membership until the end.
 
-Create groups using `add-group`. Connect summaries with `member-of`, connect adjacent group levels with `part-of`, and connect question-relevant groups to the question using `addresses`. Build all three levels the graph allows: level1 groups of summaries, level2 groups of level1 groups, and level3 groups of level2 groups.
+Create groups using `add-group`. Connect summaries with `member-of`, connect adjacent group levels with `part-of`, and connect question-relevant groups to the question using `addresses`. Build all three levels the graph allows: level1 groups of summaries, level2 groups of level1 groups, and level3 groups of level2 groups. Where the graph's help says to build only useful levels, this rule takes precedence in a whole study.
 
 For each proposed group, ask what every member shares beyond vocabulary or subject matter. For each pair of neighboring groups, ask what substantive distinction justifies keeping them separate. Merge a merely verbal distinction; preserve a difference in mental orientation, concern, condition, or intended outcome.
 
@@ -145,4 +145,4 @@ Do not mistake multiple rows for multiple people. Avoid population claims from a
 
 Check the completed report against the original question and the evidence, not only against the group labels. Ensure that details needed to answer the question have survived abstraction. Keep internal coordination notes out of the report the person receives.
 
-Then run `python3 export_csv.py` in the study folder. It writes `reports/groups.csv`, `reports/summaries.csv` and `reports/rows.csv`, with every summary's three levels of groups side by side. Tell the person these files are there.
+Then run `python3 export_csv.py` in the study folder. It writes `groups.csv`, `summaries.csv` and `rows.csv` under `reports/`, with every summary's three levels of groups side by side; if you saved the report somewhere else, pass that folder with `--out`. Tell the person these files are there.

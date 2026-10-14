@@ -10,11 +10,15 @@ stacked into one repository or BI tool:
 
     groups.csv     one line per group: its level, label, parent group and how
                    many summaries and people sit under it
-    summaries.csv  one line per summary, with its level1, level2 and level3
-                   groups side by side, the account and the person's words
+    summaries.csv  one line per summary for each lowest-level group it sits
+                   in, with its level1, level2 and level3 groups side by side,
+                   the account and the person's words; a summary in two
+                   groups appears twice, and a summary in none appears once
+                   with empty group columns
     rows.csv       one line per row, with its kind and any summary of it
 
-Options: --out DIR (default reports), --graph PATH (default graph.py),
+Options: --out DIR (default reports; name the folder where the report was
+saved when that isn't reports/), --graph PATH (default graph.py),
 --study NAME (default: the name of the study folder).
 """
 import argparse
@@ -22,6 +26,7 @@ import csv
 import json
 import os
 import subprocess
+import sqlite3
 import sys
 import tempfile
 
@@ -33,6 +38,20 @@ KINDS = {
     "5": "none of these",
 }
 LEVELS = ("level1", "level2", "level3")
+
+
+def has_graph(graph_path):
+    db = os.path.join(os.path.dirname(os.path.abspath(graph_path)), "graph.db")
+    if not os.path.isfile(db):
+        return False
+    try:
+        con = sqlite3.connect("file:%s?mode=ro" % db, uri=True)
+        try:
+            return con.execute("select 1 from sqlite_master where type='table' and name='nodes'").fetchone() is not None
+        finally:
+            con.close()
+    except sqlite3.Error:
+        return False
 
 
 def read_graph(graph_path):
@@ -140,6 +159,8 @@ def main(argv=None):
     a = p.parse_args(argv)
     if not os.path.isfile(a.graph):
         raise SystemExit("export_csv: no graph.py at %s; run this from the study folder or pass --graph" % a.graph)
+    if not has_graph(a.graph):
+        raise SystemExit("export_csv: no study graph next to %s; set the study up first" % a.graph)
     group_rows, summary_rows, row_rows = tables(*read_graph(a.graph))
     study = a.study or os.path.basename(os.path.dirname(os.path.abspath(a.graph)))
     os.makedirs(a.out, exist_ok=True)
